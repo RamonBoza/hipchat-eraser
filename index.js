@@ -3,6 +3,7 @@ var phantomjs = require('phantomjs')
 var binPath = phantomjs.path
 var path = require('path')
 var spawn = require('child_process').spawn
+var $ = require('jQuery')
 
 prompt.start()
 
